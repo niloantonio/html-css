@@ -1,15 +1,14 @@
 @charset "UTF-8";
 
+
 * {
-    
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
 }
 
 body, html {
-
-    background-color: rgb(221, 220, 220);
+    background-color: rgb(235, 235, 235);
 }
 
 header {
@@ -21,23 +20,8 @@ header > h1 {
     text-align: center;
 }
 
-span#burguer {
-    background-color: rgb(37, 37, 37);
-    color: white;
-    display: block;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
-
-}
-
-span#burguer:hover {
-    background-color: white;
-    color: black;
-}
-
 menu {
-    display: none;
+    display: block;
 }
 
 menu > ul {
@@ -49,7 +33,7 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(54, 54, 54);
+    background-color: rgb(51, 51, 51);
     color: white;
     border-top: 2px solid gray;
 }
@@ -68,11 +52,6 @@ main {
 }
 
 article > h2 {
-    padding-bottom: 20px;
-    
-}
-
-article > p {
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;
